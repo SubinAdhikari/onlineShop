@@ -1,0 +1,9 @@
+DB_CONNECTION= write dbconnection link
+PORT=write port number
+
+BYCRYPT_SALTVALUE= write bcrypt salt value
+
+GMAIL_EMAIL= write gmail email for sending mail
+GMAIL_PASSWORD=write gmail password
+
+JWT_KEY= write jwt key to generate token

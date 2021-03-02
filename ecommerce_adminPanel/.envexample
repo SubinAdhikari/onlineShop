@@ -1,0 +1,5 @@
+PORT=3000
+CHOKIDAR_USEPOLLING=true
+
+REACT_APP_BACKEND_BASE_URL= write api base url
+REACT_APP_JWT_TOKEN= write jwt token key
