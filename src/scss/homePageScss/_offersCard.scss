@@ -1,0 +1,13 @@
+.offersCard {
+  // border: 1px red solid;
+  .cardMain {
+    width: 95%;
+    min-height: 200px;
+    overflow: hidden;
+    // background-color: red;
+    .offerImage {
+      object-fit: contain;
+      height: 200px;
+    }
+  }
+}

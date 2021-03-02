@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Gugi&family=Roboto&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+  background-color: #f1f3f6;
+}
+
+@import "./variable";
+@import "./header";
+@import "./footer";
+@import "./navBar";
+@import "../commonComponentScss/productCard.scss";
+@import "../commonComponentScss//productTitleHeading";
+@import "../homePageScss/carousalComponent";
+@import "../homePageScss/offersCard";
+@import "../productPage/productPage";
+@import "../cartPageComponents/iteamListComponents";
+@import "../cartPageComponents/cartProductIteams";
+@import "../cartPageComponents/invoiceComponent";
+@import "../categoryPage/categoryPage";
+@import "../categoryPage/categoryPageCard";
+@import "../profile/profilePage";
+@import "../commonComponentScss/productNotAvailable";
+@import "../commonComponentScss/backToTop";

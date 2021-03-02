@@ -1,0 +1,31 @@
+.invoiceMain {
+  .invoiceInnerDiv {
+    background-color: white;
+    .header {
+      border-bottom: 2px #f1f3f6 solid;
+      font-size: 18px;
+      color: grey;
+      font-weight: bold;
+    }
+    .priceItem {
+      border-bottom: 2px #f1f3f6 solid;
+      span {
+        position: absolute;
+        margin-right: 20px;
+        right: 0;
+        // background-color: yellowgreen;
+      }
+    }
+    .totalAmount {
+      font-size: 18px;
+      font-weight: bold;
+      border-bottom: 2px #f1f3f6 solid;
+      span {
+        position: absolute;
+        right: 0;
+        margin-right: 20px;
+        // background-color: yellowgreen;
+      }
+    }
+  }
+}

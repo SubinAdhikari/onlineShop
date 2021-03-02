@@ -1,0 +1,76 @@
+.toggleButtonNavBar {
+  display: none;
+  border-width: 0ch;
+  outline: none;
+  @media (max-width: 991px) {
+    display: block;
+  }
+}
+
+.navbar-collapse {
+  .nav-item {
+    font-weight: bold;
+    color: $footer;
+    .nav-link {
+      cursor: pointer;
+      &:hover {
+        color: $primary;
+      }
+    }
+    &:hover {
+      .dropdown-menu {
+        display: block;
+        background-color: $primary;
+        .dropdown-item {
+          color: white;
+          &:hover {
+            color: $primary;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    position: fixed;
+    margin-top: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 80vw;
+    z-index: 2;
+    transition: all ease 0.25s;
+    background-color: $primary;
+    padding: 10px;
+    .nav-item {
+      .nav-link {
+        color: white;
+        &:hover {
+          color: white;
+        }
+      }
+    }
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+  .openOverlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+}

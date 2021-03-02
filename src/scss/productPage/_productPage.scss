@@ -1,0 +1,81 @@
+.productPageMainDiv {
+  background-color: white;
+  .imageMainDiv {
+    min-height: auto;
+    .imageDiv {
+      // background-color: red;
+      min-height: 300px;
+      max-height: 400px;
+      object-fit: cover;
+      cursor: pointer;
+      overflow: hidden;
+      img {
+        // max-width: 80%;
+        height: 300px;
+        object-fit: contain;
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+      @media (max-width: 767px) {
+        min-height: 200px;
+        max-height: 200px;
+      }
+    }
+    .buttonDiv {
+      min-height: 60px;
+      max-height: 60px;
+      width: 100%;
+      //   background-color: red;
+      color: white;
+      font-weight: 900;
+      @media (max-width: 767px) {
+        position: fixed;
+        bottom: 0;
+        background-color: white;
+        z-index: 1;
+      }
+      .atc {
+        background-color: #ff9f00;
+        cursor: pointer;
+        min-width: 45%;
+        max-width: 45%;
+        border-radius: 2px;
+        &:hover {
+          transform: scale(1.01);
+        }
+        @media (max-width: 767px) {
+          height: 40px !important;
+        }
+      }
+      .bn {
+        background-color: #fb641b;
+        cursor: pointer;
+        min-width: 45%;
+        max-width: 45%;
+        border-radius: 2px;
+        &:hover {
+          transform: scale(1.01);
+        }
+        @media (max-width: 767px) {
+          height: 40px !important;
+        }
+      }
+    }
+  }
+  .descMainDiv {
+    .descName {
+      font-size: 25px;
+    }
+    .priceTitle {
+      color: yellowgreen;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .price {
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.profilePageMainDiv {
+  background-color: white;
+  border-radius: 5px;
+  .profileImage {
+    min-height: 200px;
+    max-height: 200px;
+    max-width: 200px;
+    min-width: 200px;
+    //   background-color: red;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: contain;
+  }
+}

@@ -1,0 +1,2 @@
+REACT_APP_BACKEND_BASE_URL= write backend url
+REACT_APP_JWT_KEY= write jwt key

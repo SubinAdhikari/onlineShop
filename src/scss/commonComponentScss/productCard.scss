@@ -1,0 +1,34 @@
+.productCardMainDiv {
+  min-height: 200px;
+  cursor: pointer;
+  border: 1px #abacae solid;
+  &:hover {
+    .imageDiv {
+      img {
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  .imageDiv {
+    min-height: 150px;
+    overflow: hidden;
+    img {
+      object-fit: contain;
+      height: 140px;
+    }
+  }
+  .descDiv {
+    min-height: 50px;
+    overflow: hidden;
+    .productName {
+      font-weight: bold;
+    }
+    .productPrice {
+      color: yellowgreen;
+    }
+    .productSubName {
+      color: grey;
+    }
+  }
+}

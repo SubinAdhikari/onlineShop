@@ -1,0 +1,53 @@
+.headingMainDiv {
+  background-color: white;
+  min-height: 40px;
+  max-height: 40px;
+  border-bottom: 2px #f1f3f6 solid;
+  .headingText {
+    font-size: 22px;
+  }
+}
+.productListMainDiv {
+  background-color: white;
+  .emptyCartMain {
+    .emptyCartHeading {
+      font-size: 30px;
+      font-weight: 900;
+    }
+    .subHeading {
+      font-size: 18px;
+      a {
+        text-decoration: none;
+        color: $primary;
+      }
+    }
+  }
+}
+.cartFooter {
+  min-height: 40px;
+  max-height: 40px;
+  background-color: white;
+  color: white;
+  // font-weight: bold;
+  @media (max-width: 767px) {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    z-index: 1;
+  }
+
+  .continueShopping {
+    background-color: $primary;
+    min-height: 40px;
+    max-height: 40px;
+    cursor: pointer;
+  }
+  .checkout {
+    background-color: #fb641b;
+    min-height: 40px;
+    max-height: 40px;
+    cursor: pointer;
+  }
+}

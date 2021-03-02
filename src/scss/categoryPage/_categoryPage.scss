@@ -1,0 +1,59 @@
+.categoryHeroSection {
+  min-height: 200px;
+  max-height: 200px;
+  background-color: $primary;
+  overflow: hidden;
+
+  @media (max-width: 767px) {
+    min-height: 100px;
+    max-height: 100px;
+  }
+  .InnerDiv {
+    min-height: 200px;
+    max-height: 200px;
+    @media (max-width: 767px) {
+      min-height: 100px;
+      max-height: 100px;
+    }
+    .heroTitle {
+      font-size: 50px;
+      font-weight: 900;
+      color: white;
+      @media (max-width: 767px) {
+        font-size: 25px;
+      }
+    }
+  }
+}
+
+.categoryPageMain {
+  .rowMain {
+    @media (max-width: 767px) {
+      flex-direction: column;
+    }
+    // .filterMainDiv {
+    // }
+    // .productCardMain {
+    // }
+  }
+}
+
+.filterMainDiv {
+  .inputMainDiv {
+    input {
+      width: 100%;
+      outline: none;
+      border: 1px grey solid;
+      height: 30px;
+      border-radius: 10px;
+    }
+    i {
+      position: absolute;
+      right: 0;
+      margin-right: 10px;
+      margin-top: 5px;
+      color: grey;
+      cursor: pointer;
+    }
+  }
+}

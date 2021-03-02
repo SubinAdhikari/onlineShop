@@ -1,0 +1,45 @@
+.categoryPageCardMain {
+  .innerCard {
+    min-height: 250px;
+    max-height: 250px;
+    width: 95%;
+    border: 1px #abacae solid;
+    cursor: pointer;
+    color: white;
+    background-color: white;
+    overflow: hidden;
+    .imageMainDiv {
+      min-height: 150px;
+      max-height: 150px;
+      max-width: 90%;
+      overflow: hidden;
+      // background-color: red;
+      img {
+        height: 100px;
+        object-fit: contain;
+      }
+    }
+
+    .descDivMain {
+      min-height: 100px;
+      max-height: 100px;
+      overflow: hidden;
+      .productHeading {
+        color: $primary;
+        font-weight: bold;
+      }
+      .price {
+        color: yellowgreen;
+        font-weight: bold;
+      }
+    }
+    &:hover {
+      -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.35);
+      -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.35);
+      box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.35);
+    }
+    .descDivMain {
+      color: black;
+    }
+  }
+}
